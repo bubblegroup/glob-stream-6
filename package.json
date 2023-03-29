@@ -19,7 +19,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "eslint . && jscs index.js readable.js test/",
+    "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "mocha --async-only"
   },
@@ -36,13 +36,11 @@
     "unique-stream": "^2.0.2"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-gulp": "^2.0.0",
+    "eslint": "^8.37.0",
+    "eslint-plugin-node": "^11.1.0",
     "expect": "^1.19.0",
-    "jscs": "^2.4.0",
-    "jscs-preset-gulp": "^1.0.0",
     "mississippi": "^1.2.0",
-    "mocha": "^2.4.5"
+    "mocha": "^10.2.0"
   },
   "keywords": [
     "glob",
