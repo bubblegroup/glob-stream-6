@@ -1,6 +1,6 @@
 {
   "name": "@bubblegroup/glob-stream",
-  "version": "6.1.2",
+  "version": "6.1.3",
   "description": "A Readable Stream interface over node-glob.",
   "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
   "contributors": [
